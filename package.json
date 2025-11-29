@@ -1,0 +1,19 @@
+{
+  "name": "youtube-downloader-api",
+  "version": "1.0.0",
+  "description": "YouTube Video Downloader API with quality support up to 4K",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
